@@ -1,4 +1,4 @@
-package section_9;
+package CampusMap;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 
 import java.util.Random;
 
-public class CampusMap extends Application {
+public class App extends Application {
     private static final double MAX_DORMITORY_RADIUS = 50;
     private static final int MAX_DORMITORY_LOCATION_X = (int) (800- MAX_DORMITORY_RADIUS);
     private static final int MAX_DORMITORY_LOCATION_Y = (int) (800 - MAX_DORMITORY_RADIUS);
@@ -61,6 +61,12 @@ public class CampusMap extends Application {
             dormitoryBox.setLayoutX(dormitoryLocationX[i] - 20);
             dormitoryBox.setLayoutY(dormitoryLocationY[i] + 10);
             pane.getChildren().add(dormitoryBox);
+
+            if (i % 2 == 0) {
+                dormitoryCircle.setFill(Color.GOLD);
+            } else {
+                dormitoryCircle.setFill(Color.CHOCOLATE);
+            }
 
             dormitoryCircle.setOnMousePressed(event -> {
                 if (event.getButton() == MouseButton.PRIMARY) {

@@ -1,9 +1,9 @@
-package section_8;
+package BrazeSoccer;
 
-import section_8.league.Team;
+import BrazeSoccer.league.Team;
 import utilities.Constant;
 import utilities.Input;
-import section_8.utilities.Match;
+import BrazeSoccer.utilities.Match;
 import utilities.Checker;
 
 import javax.swing.*;

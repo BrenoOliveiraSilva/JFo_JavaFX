@@ -1,4 +1,4 @@
-package section_7.people;
+package BrazeGame.people;
 
 import utilities.Input;
 import utilities.Output;

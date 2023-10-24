@@ -1,8 +1,8 @@
-package section_7;
+package BrazeGame;
 
-import section_7.people.Card;
-import section_7.people.Person;
-import section_7.utilities.ArcadeGames;
+import BrazeGame.people.Card;
+import BrazeGame.people.Person;
+import BrazeGame.utilities.ArcadeGames;
 import utilities.Constant;
 import utilities.Input;
 import utilities.Checker;

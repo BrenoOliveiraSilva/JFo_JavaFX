@@ -1,6 +1,6 @@
-package section_8.utilities;
+package BrazeSoccer.utilities;
 
-import section_8.league.Team;
+import BrazeSoccer.league.Team;
 import utilities.Constant;
 
 public class Match {

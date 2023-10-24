@@ -1,6 +1,6 @@
-package section_7.utilities;
+package BrazeGame.utilities;
 
-import section_7.people.Person;
+import BrazeGame.people.Person;
 import utilities.Constant;
 
 import javax.swing.*;

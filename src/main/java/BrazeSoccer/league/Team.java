@@ -1,4 +1,4 @@
-package section_8.league;
+package BrazeSoccer.league;
 
 public class Team {
     private final String name;

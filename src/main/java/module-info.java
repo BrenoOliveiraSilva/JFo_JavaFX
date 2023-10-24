@@ -6,6 +6,6 @@ module com.jfo_javafx {
 
     opens com.jfo_javafx to javafx.fxml;
     exports com.jfo_javafx;
-    exports section_9;
-    opens section_9 to javafx.fxml;
+    exports CampusMap;
+    opens CampusMap to javafx.fxml;
 }
